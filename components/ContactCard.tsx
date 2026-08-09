@@ -57,9 +57,13 @@ export function ContactCard() {
         role="Barbero & Especialista en Fades"
         description="Cortes precisos, fades limpios y un estilo adaptado a cada cliente. Mateo se enfoca en los detalles para que cada corte tenga un acabado impecable."
         images={[
-          "https://picsum.photos/seed/rcstudio-mateo-1/600/600",
-          "https://picsum.photos/seed/rcstudio-mateo-2/600/600",
-          "https://picsum.photos/seed/rcstudio-mateo-3/600/600",
+          "/images/cortes/mateo-1.jpeg",
+          "/images/cortes/mateo-2.jpeg",
+          "/images/cortes/mateo-3.jpeg",
+          "/images/cortes/mateo-4.jpeg",
+          "/images/cortes/mateo-5.jpeg",
+          "/images/cortes/mateo-6.jpeg",
+          "/images/cortes/mateo-7.jpeg",
         ]}
         contact={siteConfig.contacts.cortes}
       />
@@ -70,9 +74,12 @@ export function ContactCard() {
         role="Tattoo Artist"
         description="Diseños personalizados, líneas precisas y atención al detalle. Cando transforma tus ideas en tatuajes pensados para representar tu estilo."
         images={[
-          "https://picsum.photos/seed/rcstudio-cando-1/600/600",
-          "https://picsum.photos/seed/rcstudio-cando-2/600/600",
-          "https://picsum.photos/seed/rcstudio-cando-3/600/600",
+          "/images/tattoo/cando-1.jpeg",
+          "/images/tattoo/cando-2.jpeg",
+          "/images/tattoo/cando-3.jpeg",
+          "/images/tattoo/cando-4.jpeg",
+          "/images/tattoo/cando-5.jpeg",
+          "/images/tattoo/cando-6.jpeg",
         ]}
         contact={siteConfig.contacts.tattoo}
       />
