@@ -31,14 +31,11 @@ export function Hero() {
           </a>
         </div>
 
-        <div className="flex w-full justify-center md:w-1/2">
-          <Image
+        <div className="md:w-1/2">
+          <img
             src="/images/logo.png"
-            alt="RCStudio - Barbería y Tattoo"
-            width={800}
-            height={800}
-            className="h-auto w-full max-w-md object-contain"
-            priority
+            alt="RCStudio"
+            className="w-full rounded-xl border border-border object-cover"
           />
         </div>
       </div>
