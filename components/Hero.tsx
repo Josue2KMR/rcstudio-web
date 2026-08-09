@@ -1,5 +1,6 @@
 import { siteConfig } from "@/lib/site-config";
 import { getWhatsappLink } from "@/lib/utils";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -9,14 +10,17 @@ export function Hero() {
           <h1 className="font-display text-4xl leading-tight text-foreground md:text-5xl">
             TU ESTILO, <span className="text-accent">TU FIRMA.</span>
           </h1>
+
           <p className="mt-4 text-text-secondary">
             Precisos cortes, inmaculados fades y tatuajes que hablan por ti. Un
             espacio en el que cada detalle está pensado para que salgas con un
             estilo que te represente.
           </p>
+
           <p className="mt-2 text-sm uppercase tracking-wide text-text-muted">
             Cortes • Fade • Tattoos
           </p>
+
           <a
             href={getWhatsappLink(siteConfig.contacts.cortes)}
             target="_blank"
@@ -26,11 +30,15 @@ export function Hero() {
             Reserva tu turno
           </a>
         </div>
-        <div className="md:w-1/2">
-          <img
-            src="https://picsum.photos/seed/rcstudio-hero/800/600"
-            alt="RCStudio"
-            className="w-full rounded-xl border border-border object-cover"
+
+        <div className="flex w-full justify-center md:w-1/2">
+          <Image
+            src="/images/logo.png"
+            alt="RCStudio - Barbería y Tattoo"
+            width={800}
+            height={800}
+            className="h-auto w-full max-w-md object-contain"
+            priority
           />
         </div>
       </div>
