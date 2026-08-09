@@ -10,7 +10,7 @@ const newRocker = New_Rocker({
 });
 const archivo = Archivo({ subsets: ["latin"], variable: "--font-body" });
 
-const SITE_URL = "https://rcstudio-web-tori-s.vercel.app";
+const SITE_URL = "https://rcstudio-web-eight.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

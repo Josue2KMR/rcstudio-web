@@ -1,7 +1,7 @@
 // components/LocalBusinessJsonLd.tsx
 import { siteConfig } from "@/lib/site-config";
 
-const SITE_URL = "https://rcstudio-web-tori-s.vercel.app";
+const SITE_URL = "https://rcstudio-web-eight.vercel.app";
 
 export function LocalBusinessJsonLd() {
   const jsonLd = {
