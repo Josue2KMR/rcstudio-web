@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { New_Rocker, Archivo } from "next/font/google";
 import "./globals.css";
 import { LocalBusinessJsonLd } from "@/components/LocalBusinessJsonLd";
+import { Analytics } from "@vercel/analytics/next";
 
 const newRocker = New_Rocker({
   subsets: ["latin"],
@@ -64,6 +65,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <LocalBusinessJsonLd />
         {children}
+        <Analytics />
       </body>
     </html>
   );
