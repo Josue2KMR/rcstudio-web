@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://rcstudio-web-tori-s.vercel.app/sitemap.xml",
+    sitemap: "https://rcstudio-web-eight.vercel.app/sitemap.xml",
   };
 }
